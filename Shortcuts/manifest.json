@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Shortcuts",
+    "version": "0.1",
+    "description": "Create shortcuts to websites",
+
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+
+    "host_permissions": [
+        "https://www.google.com/search?q=*"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
