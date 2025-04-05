@@ -1,0 +1,21 @@
+{
+    "name": "Scratch Color Changer",
+    "description": "Change the color of the Scratch website at will",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    
+    "permissions": ["webRequest", "webRequestBlocking", "https://*.scratch.mit.edu/*"],
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "32": "icon.svg",
+        "64": "icon.svg"
+    }
+}
